@@ -88,8 +88,8 @@ syn region vbnetComment start="'" end="$" contains=vbnetTodo
 
 syn region vbnetPreCondit start="^#If\s" end="Then$"
 syn region vbnetPreCondit start="^#ElseIf\s" end="Then$"
-syn match vbnetPreCondit "^#Else$"
-syn match vbnetPreCondit "^#End If$"
+syn match vbnetPreCondit "^#Else\s"
+syn match vbnetPreCondit "^#End If\s"
 
 syn region vbnetPreCondit start="^#Region\s\+\"" end="\"$"
 syn match vbnetPreCondit "^#End Region$"
